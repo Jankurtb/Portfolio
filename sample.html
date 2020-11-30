@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="addPioints">
+        <input type="hidden"  id="user_id">
+        <video id="video" width="480" height="400" controls="true">
+            <source type="video/mp4" src="video.mp4"></source>
+        </video>
+    </form>
+    https://lara.trendmicro.com.ph/moodle/pluginfile.php/1901/mod_resource/content/5/Ti17-3.mp4
+    <script>
+        document.getElementById('video').addEventListener('ended', function(e) {
+            id = $("#user_id").val();
+            id.innerHTML="50";
+        }); 
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+.btn-default {
+        background-color: #ffab91;
+        font-size: 12px;
+        font-weight: 800;
+        text-align: center;
+        border-radius: 2px;
+        line-height: 16px;
+        height: 41px;
+        padding: 12px 0;
+        position: relative;
+        min-width: 129px;
+        max-width: 220px;
+        color: #ffffff;
+        z-index: 0;
+        text-overflow: ellipsis;
+        cursor: pointer;
+        display: inline-block;
+        transition: color 300ms cubic-bezier(0.06, 0.81, 0, 0.98);
+        vertical-align: middle;
+        text-transform: uppercase;
+      }
